@@ -54,13 +54,14 @@
 		}}.w10p3-xnm .description{text-align:justify}
 .w_e8p_pqi h2{border-bottom:2px solid var(--muted-background);margin-bottom:1rem;font-weight:700;font-style:normal;font-size:var(--text-xl)}
 .wnirigpbk p{text-align:justify}
-.wsgt1yn9c .tech{.wsgt1yn9c &:first-of-type{margin-bottom:0.5rem}p {
+.wf6pqxslc .tech{.wf6pqxslc &:first-of-type{margin-bottom:0.5rem}p {
 			display: inline;
 		}
 
 		span {
 			background-color: var(--muted-background);
 			border-radius: 4px;
+			padding: 0 0.2rem;
 
 			@media print {
 				-webkit-print-color-adjust: exact;

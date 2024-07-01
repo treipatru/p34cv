@@ -1,0 +1,67 @@
+<article>
+	<div class="title">
+		<h3 @text="title"></h3>
+		<span @text="period"></span>
+		<span @text="location"></span>
+	</div>
+
+	<p @text="company" class="company"></p>
+
+	<ul class="list">
+		<slot></slot>
+	</ul>
+
+	<p class="description" @text="description"></p>
+</article>
+
+<style webc:scoped>
+	.title {
+		align-items: center;
+		display: flex;
+		justify-content: space-between;
+
+		h3 {
+			color: var(--muted-foreground);
+			flex-grow: 1;
+			font-size: 1.1rem;
+			font-weight: 700;
+			line-height: 1rem;
+		}
+
+		span {
+			color: var(--muted-foreground);
+			font-size: var(--text-small);
+		}
+
+		span:after {
+			content: "|";
+			margin: 0 0.1rem;
+		}
+
+		span:last-child:after,
+		span:only-child:after {
+			content: "";
+		}
+	}
+
+	.company {
+		color: var(--accent);
+		margin-bottom: 0.1rem;
+	}
+
+	.list {
+		list-style-type: "-";
+		padding: 0rem;
+		text-align: justify;
+
+		li {
+			margin-left: 0.3rem;
+			padding-left: 0.3rem;
+			text-indent: 0rem;
+		}
+	}
+
+	.description {
+		text-align: justify;
+	}
+</style>

@@ -1,0 +1,62 @@
+<ui-card @title="Tech Stack">
+	<div class="tech">
+		<p>Proficient in</p>
+		<span>TypeScript</span>
+		<span>React</span>
+		<span>Next.js</span>
+		<span>Vue.js</span>
+		<span>Docker</span>
+		<span>GitHub Actions</span>
+		<span>REST</span>
+		<span>Tailwind</span>
+		<span>Vitest</span>
+		<span>Jest</span>
+		<span>Testing Library</span>
+	</div>
+
+	<div class="tech">
+		<p>Experienced with</p>
+		<span>AWS</span>
+		<span>Bash</span>
+		<span>Cypress</span>
+		<span>Fastify</span>
+		<span>GitLab CI/CD</span>
+		<span>GraphQL</span>
+		<span>Laravel</span>
+		<span>MUI</span>
+		<span>Node.js</span>
+		<span>Pinia</span>
+		<span>ReactFlow</span>
+		<span>Redux</span>
+		<span>RPC</span>
+		<span>Storybook</span>
+		<span>Storybook</span>
+		<span>TanStackQuery</span>
+		<span>Turborepo</span>
+		<span>Webpack</span>
+		<span>WebSockets</span>
+		<span>Zustand</span>
+	</div>
+</ui-card>
+
+<style webc:scoped>
+	.tech {
+		&:first-of-type {
+			margin-bottom: 0.5rem;
+		}
+
+		p {
+			display: inline;
+		}
+
+		span {
+			background-color: var(--muted-background);
+			border-radius: 4px;
+			padding: 0 0.2rem;
+
+			@media print {
+				-webkit-print-color-adjust: exact;
+			}
+		}
+	}
+</style>

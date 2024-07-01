@@ -1,0 +1,15 @@
+<section>
+	<h2 @text="title"></h2>
+
+	<slot></slot>
+</section>
+
+<style webc:scoped>
+	h2 {
+		border-bottom: 2px solid var(--muted-background);
+		margin-bottom: 1rem;
+		font-weight: 700;
+		font-style: normal;
+		font-size: var(--text-xl);
+	}
+</style>

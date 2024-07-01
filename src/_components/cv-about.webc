@@ -1,0 +1,24 @@
+<footer>
+	<p>
+		Made with <a href="https://www.11ty.dev/">11ty</a>. View
+		<a href="https://treipatru.github.io/p34cv/">web version</a> or
+		<a href="https://github.com/treipatru/p34cv">source</a>.
+	</p>
+</footer>
+
+<style webc:scoped>
+	:host {
+		flex-grow: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: end;
+	}
+
+	footer {
+		p,
+		a {
+			font-size: 0.7rem;
+			color: var(--muted-foreground);
+		}
+	}
+</style>

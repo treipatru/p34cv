@@ -1,0 +1,63 @@
+<nav>
+	<ul>
+		<li>
+			<a href="mailto:andrei@planet34.org">
+				<img src="images/mail.svg" alt="Email" />
+				<span>andrei@planet34.org</span>
+			</a>
+		</li>
+
+		<li>
+			<a href="https://www.linkedin.com/in/andrei34/">
+				<img src="images/linkedin.svg" alt="LinkedIn" />
+				<span>LinkedIn</span>
+			</a>
+		</li>
+
+		<li>
+			<a href="tel:+33627304242">
+				<img src="images/phone.svg" alt="Phone" />
+				<span>+33 627 30 42 42</span>
+			</a>
+		</li>
+
+		<li>
+			<div>
+				<img src="images/map-pin.svg" alt="Location" />
+				<span>Paris, France</span>
+			</div>
+		</li>
+	</ul>
+</nav>
+
+<style webc:scoped>
+	nav {
+		ul {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+
+			li {
+				display: inline-block;
+
+				a,
+				div {
+					display: inline-flex;
+					align-items: center;
+					margin-right: 0.5rem;
+					color: var(--muted-foreground);
+
+					@media print {
+						text-decoration: none;
+					}
+
+					img {
+						width: 1rem;
+						height: 1rem;
+						margin-right: 0.5rem;
+					}
+				}
+			}
+		}
+	}
+</style>

@@ -1,0 +1,98 @@
+<ui-card @title="Experience">
+	<card-experience-job
+		@title="Lead Software Engineer"
+		@company="Newcrest Mining"
+		@period="Jul 2023 - May 2024"
+		@location="Remote"
+	>
+		<li>
+			Lead the design and implementation of a multi-service web application for
+			real-time production data monitoring and alerting.
+		</li>
+		<li>
+			Developed a backend service for continuous processing of external data and
+			dispatching alerts.
+		</li>
+		<li>
+			Developed frontend application for real-time data visualization and
+			building alert flows.
+		</li>
+	</card-experience-job>
+
+	<card-experience-job
+		@title="Senior Software Engineer"
+		@company="Ankorstore"
+		@period="Jul 2022 - Apr 2023"
+		@location="Remote"
+	>
+		<li>
+			Implemented next generation of marketing email management tool for brands
+			back office.
+		</li>
+		<li>
+			Worked with designers to contribute new components to the company's design
+			system.
+		</li>
+		<li>
+			Refactoring and TypeScript migration of older parts of the codebase.
+		</li>
+	</card-experience-job>
+
+	<card-experience-job
+		@title="Frontend Engineer"
+		@company="Keen Eye"
+		@period="Apr 2020 - May 2022"
+		@location="Remote"
+	>
+		<li>
+			Developed features related to resource management - file browser, user and
+			permissions manager, and projects.
+		</li>
+		<li>
+			Improved testing DX by migrating component testing from Enzyme to Testing
+			Library.
+		</li>
+		<li>Migrated state management to DDD architecture.</li>
+	</card-experience-job>
+
+	<card-experience-job
+		@title="Lead Frontend Developer"
+		@company="WeSave"
+		@period="Oct 2018 - Apr 2020"
+		@location="Paris, FR"
+	>
+		<li>
+			Implemented features related to data dashboards and visualization,
+			compliance and security.
+		</li>
+		<li>
+			Set up tooling and processes for the team (GitFlow, CI/CD, application
+			monitoring).
+		</li>
+	</card-experience-job>
+
+	<card-experience-job
+		@title="Web Developer"
+		@company="Justifit"
+		@period="Feb 2017 - Sep 2018"
+		@location="Paris, FR"
+	>
+		<li>
+			Migrated application frontend from Laravel monolith to a Vue.js SPA.
+		</li>
+		<li>Set up build and deploy pipelines.</li>
+		<li>
+			Implemented data visualization features for internal data analytics.
+		</li>
+	</card-experience-job>
+
+	<card-experience-job
+		@title="Previous Experience"
+		@period="2006 - 2016"
+		@location="On-site/Remote"
+		@description="8+ years in the
+            video games industry as a game/systems designer, teacher, and
+            consultant for Ubisoft Bucharest, City Interactive Bucharest, twofour54 Abu Dhabi and others."
+	>
+	</card-experience-job>
+</ui-card>

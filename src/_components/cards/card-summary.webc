@@ -1,0 +1,20 @@
+<ui-card @title="Summary">
+	<p>
+		Expertise in frontend development with a focus on creating user-friendly UIs
+		and enhancing UX. Keen interest in performance optimization and security.
+	</p>
+
+	<p>
+		Proficient in modern frameworks and tooling, with a strong background in
+		developing and maintaining complex web applications.
+	</p>
+
+	<p>Eager to collaborate across the stack to deliver effective results.</p>
+	<p></p>
+</ui-card>
+
+<style webc:scoped>
+	p {
+		text-align: justify;
+	}
+</style>

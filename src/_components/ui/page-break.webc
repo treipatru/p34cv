@@ -1,0 +1,9 @@
+<div></div>
+
+<style webc:scoped>
+	@media print {
+		div {
+			page-break-before: always;
+		}
+	}
+</style>

@@ -1,0 +1,6 @@
+<ui-card @title="Languages">
+	<p>
+		<strong>English</strong>, <strong>French</strong>, and
+		<strong>Romanian</strong> with native or bilingual proficiency.
+	</p>
+</ui-card>

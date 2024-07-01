@@ -1,0 +1,20 @@
+<h1>Andrei Mocanca</h1>
+
+<cv-header-contact></cv-header-contact>
+
+<p>
+	Software Engineer with 7 years of experience building efficient and scalable
+	web applications.
+</p>
+
+<style webc:scoped>
+	h1 {
+		text-transform: uppercase;
+		font-size: var(--text-xxl);
+	}
+
+	p {
+		font-size: var(--text-large);
+		color: var(--accent);
+	}
+</style>

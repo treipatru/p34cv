@@ -1,0 +1,226 @@
+.wvewmkvxy nav{ul {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+
+			li {
+				display: inline-block;
+
+				a,
+				div {
+					display: inline-flex;
+					align-items: center;
+					margin-right: 0.5rem;
+					color: var(--muted-foreground);
+
+					@media print {
+						text-decoration: none;
+					}
+
+					img {
+						width: 1rem;
+						height: 1rem;
+						margin-right: 0.5rem;
+					}
+				}
+			}
+		}}
+.w2lbv1cfg h1{text-transform:uppercase;font-size:var(--text-xxl)}.w2lbv1cfg p{font-size:var(--text-large);color:var(--accent)}
+.w10p3-xnm .title{align-items:center;display:flex;justify-content:space-between;h3 {
+			color: var(--muted-foreground);
+			flex-grow: 1;
+			font-size: 1.1rem;
+			font-weight: 700;
+			line-height: 1rem;
+		}
+
+		span {
+			color: var(--muted-foreground);
+			font-size: var(--text-small);
+		}
+
+		span:after {
+			content: "|";
+			margin: 0 0.1rem;
+		}
+
+		span:last-child:after,
+		span:only-child:after {
+			content: "";
+		}}.w10p3-xnm .company{color:var(--accent);margin-bottom:0.1rem}.w10p3-xnm .list{list-style-type:"-";padding:0rem;text-align:justify;li {
+			margin-left: 0.3rem;
+			padding-left: 0.3rem;
+			text-indent: 0rem;
+		}}.w10p3-xnm .description{text-align:justify}
+.w_e8p_pqi h2{border-bottom:2px solid var(--muted-background);margin-bottom:1rem;font-weight:700;font-style:normal;font-size:var(--text-xl)}
+.wnirigpbk p{text-align:justify}
+.wsgt1yn9c .tech{.wsgt1yn9c &:first-of-type{margin-bottom:0.5rem}p {
+			display: inline;
+		}
+
+		span {
+			background-color: var(--muted-background);
+			border-radius: 4px;
+
+			@media print {
+				-webkit-print-color-adjust: exact;
+			}
+		}}
+.wz621rpp-{flex-grow:1;display:flex;flex-direction:column;justify-content:end}.wz621rpp- footer{p,
+		a {
+			font-size: 0.7rem;
+			color: var(--muted-foreground);
+		}}
+/*
+ *   CSS Reset
+ *   @see https://www.joshwcomeau.com/css/custom-css-reset/
+ */
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/*
+  2. Remove default margin
+*/
+* {
+	margin: 0;
+}
+
+/*
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+
+/*
+  5. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+/*
+  6. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+/*
+  7. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+/*
+  8. Create a root stacking context
+*/
+#root,
+#__next {
+	isolation: isolate;
+}
+:root {
+	--muted-foreground: #475569;
+	--muted-background: #e2e8f0;
+	--base: #1e293b;
+	--accent: #4338ca;
+	--section-border: var(--accent-1) 3px solid;
+	--text-small: 0.75rem;
+	--text-medium: 0.85rem;
+	--text-large: 1.2rem;
+	--text-xl: 1.5rem;
+	--text-xxl: 2.5rem;
+}
+h1,
+	h2,
+	h3 {
+		font-family: "Roboto Condensed", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+	}
+
+	body {
+		color: var(--base);
+		container-type: inline-size;
+		display: grid;
+		font-family: "Roboto", sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: var(--text-medium);
+		grid-template-columns: repeat(6, 1fr);
+		grid-template-rows: auto auto auto;
+
+		@media screen {
+			margin: 0 auto;
+			margin-top: 1rem;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+			border: 1px solid var(--muted-background);
+			padding: 1rem 2rem;
+			max-width: 210mm;
+			max-height: 297mm;
+		}
+	}
+
+	header {
+		grid-area: 1 / 1 / 2 / 7;
+		margin-bottom: 0.5rem;
+	}
+
+	main {
+		grid-area: 3 / 1 / 4 / 7;
+
+		article {
+			margin-bottom: 1rem;
+		}
+	}
+
+	aside {
+		grid-area: 2 / 1 / 3 / 7;
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		margin: 0 1rem 1rem 0;
+	}
+
+	@container (min-width: 700px) {
+		main {
+			grid-area: 2 / 1 / 4 / 5;
+		}
+
+		aside {
+			grid-area: 2 / 5 / 4 / 7;
+			margin: 0 0 0 1rem;
+		}
+	}
+
+	@media print {
+		@page {
+			size: A4;
+			margin: 5mm 10mm;
+		}
+	}

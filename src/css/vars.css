@@ -2,11 +2,20 @@
 	--muted-foreground: #475569;
 	--muted-background: #e2e8f0;
 	--base: #1e293b;
-	--accent: #4338ca;
+	--accent: #1e40af;
 	--section-border: var(--accent-1) 3px solid;
-	--text-small: 0.75rem;
-	--text-medium: 0.85rem;
-	--text-large: 1.2rem;
-	--text-xl: 1.5rem;
+	--text-xs: 0.6rem;
+	--text-small: 0.9rem;
+	--text-medium: 1rem;
+	--text-large: 1.4rem;
+	--text-xl: 1.8rem;
 	--text-xxl: 2.5rem;
+
+	@media (min-width: 700px) {
+		--text-small: 0.75rem;
+		--text-medium: 0.85rem;
+		--text-large: 1.2rem;
+		--text-xl: 1.5rem;
+		--text-xxl: 2.5rem;
+	}
 }

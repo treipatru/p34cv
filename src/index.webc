@@ -50,7 +50,6 @@
 
 	body {
 		color: var(--base);
-		container-type: inline-size;
 		display: grid;
 		font-family: "Roboto", sans-serif;
 		font-style: normal;
@@ -59,9 +58,9 @@
 		grid-template-columns: repeat(6, 1fr);
 		grid-template-rows: auto auto auto;
 
-		@media screen {
-			margin: 0 auto;
-			margin-top: 1rem;
+		margin: 2rem 1rem;
+
+		@media screen and (min-width: 700px) {
 			box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 			border: 1px solid var(--muted-background);
 			padding: 1rem 2rem;
@@ -81,6 +80,10 @@
 		article {
 			margin-bottom: 1rem;
 		}
+
+		@media (min-width: 700px) {
+			grid-area: 2 / 1 / 4 / 5;
+		}
 	}
 
 	aside {
@@ -89,14 +92,8 @@
 		flex-direction: column;
 		gap: 1rem;
 		margin: 0 1rem 1rem 0;
-	}
 
-	@container (min-width: 700px) {
-		main {
-			grid-area: 2 / 1 / 4 / 5;
-		}
-
-		aside {
+		@media (min-width: 700px) {
 			grid-area: 2 / 5 / 4 / 7;
 			margin: 0 0 0 1rem;
 		}
